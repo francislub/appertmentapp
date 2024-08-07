@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "apartments-clone",
+    "slug": "apartments-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "com.jeremypersing.apartmentsclone",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-notifications"],
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jeremypersing.apartmentsclone"
+    },
+    "android": {
+      "package": "com.jeremypersing.apartmentsclone",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bd09304-3926-421c-8f0a-ef37f783dbff"
+      }
+    }
+  }
+}
